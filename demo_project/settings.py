@@ -89,5 +89,5 @@ JENKINS_TASKS = (
 )
 
 PROJECT_APPS=(
-    'find_a_rep',
+    'demo_app',
 )
