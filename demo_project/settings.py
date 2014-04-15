@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'demo_app',
     'django_jenkins',
+    'django_extensions',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -86,4 +87,8 @@ STATIC_URL = '/static/'
 JENKINS_TASKS = (
     'django_jenkins.tasks.run_pylint',
     'django_jenkins.tasks.with_coverage',
+)
+
+PROJECT_APPS=(
+    'find_a_rep',
 )
